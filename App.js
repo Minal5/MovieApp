@@ -8,13 +8,13 @@ import SearchIcon from './search.png';
 
 const API_URL= 'http://www.omdbapi.com/?i=tt3896198&apikey=9b7f20b4'
 
-const movie1 = {
-    "Poster": "N/A",
-    "Title": "Amazing Spiderman Syndrome",
-    "Type": "movie",
-    "Year": "2012",
-    "imdbID": "tt2586634"
-}
+// const movie1 = {
+//     "Poster": "N/A",
+//     "Title": "Amazing Spiderman Syndrome",
+//     "Type": "movie",
+//     "Year": "2012",
+//     "imdbID": "tt2586634"
+// }
 
 const App = () => {
     const [movies,setMovies] = useState([]);
